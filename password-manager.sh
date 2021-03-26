@@ -14,11 +14,10 @@ homescreen() {
 			if password=$(zenity --password --title="Password" --width=300)
 			then
 				echo "$password" > "$username"
-				homescreen &
-				sleep 1
-				zenity --info --icon-name=emblem-default --title="Success" --text="$username's password has been added." --width=300
+				zenity --info --icon-name=emblem-default --title="Success" --text="$username's password has been added." --width=300 &
 			fi
 		fi
+		homescreen
 	elif [ $answer == 20 ]
 	then
 		list() {
