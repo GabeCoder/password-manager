@@ -8,13 +8,17 @@ homescreen() {
 	cd "$HOME"/.passwords
 	if [ $answer == 10 ]
 	then
-		username=$(zenity --entry --title="Username" --text="Type your username" --width=300)
-		username="${username// /_}"
-		password=$(zenity --password --title="Password" --width=300)
-		echo "$password" > "$username"
-		homescreen &
-		sleep 1
-		zenity --info --icon-name=emblem-default --title="Success" --text="$username's password has been added." --width=300
+		if username=$(zenity --entry --title="Username" --text="Type your username" --width=300)
+		then
+			username="${username// /_}"
+			if password=$(zenity --password --title="Password" --width=300)
+			then
+				echo "$password" > "$username"
+				homescreen &
+				sleep 1
+				zenity --info --icon-name=emblem-default --title="Success" --text="$username's password has been added." --width=300
+			fi
+		fi
 	elif [ $answer == 20 ]
 	then
 		list() {
