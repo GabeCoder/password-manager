@@ -5,7 +5,7 @@ homescreen() {
 	cd "$HOME"/password-manager
 	yad --window-icon=icon.png --image=icon.png --title="Password Manager" --text="Welcome, $homename. What do you want to do?" --button="Add Password":10 --button="Browse Passwords":20 --width=300 --height=300
 	answer=$?
-	cd "$HOME"/.passwords
+	cd .passwords
 	if [ $answer == 10 ]
 	then
 		if username=$(zenity --entry --title="Username" --text="Type your username" --width=300)
