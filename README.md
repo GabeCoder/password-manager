@@ -12,6 +12,6 @@ To run this app, click Menu > Accessories > Password Manager.
 
 To add passwords, click on "Add Password". You'll be prompted to enter a username for the password and a password for the username. To browse the passwords, click on 'Browse Passwords", and you'll get a pair of options for each password. The passwords are hidden as default to prevent accidental leakage from possible streaming. You can reveal and delete passwords.
 
-Password Manager is compatible with Debian and Debian distros.
+Compatible with Debian and Debian distros.
 
 ![Debian](https://user-images.githubusercontent.com/72320038/116701216-a5b11800-a995-11eb-8eaf-5934bf08b6b4.png)
