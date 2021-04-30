@@ -4,7 +4,7 @@ Password Manager for Debian lets you securely access your passwords so you can e
 
 ## Installation
 
-Download the installer here: [Password Manager.tar.gz](https://github.com/GabeCoder/password-manager/files/6281508/Password.Manager.tar.gz)
+Download the installer here: [Password Manager.tar.gz](https://github.com/GabeCoder/password-manager/files/6406465/Password.Manager.tar.gz)
 
 ## Usage
 
