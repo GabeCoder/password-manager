@@ -22,7 +22,6 @@ homescreen() {
 	then
 		list() {
 			list=$(ls -Q)
-			echo $list
 			username=$(yad --list --title="Passwords" --window-icon="$HOME"/password-manager/icon.png --no-headers --column="Username" ${list//'"'} --button="Back":10 --button="Reveal Password":20 --button="Delete Password":30 --height=300)
 			answer=$?
 			if [ $answer == 10 ]
