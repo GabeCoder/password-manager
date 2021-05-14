@@ -14,4 +14,4 @@ To add passwords, click on "Add Password". You'll be prompted to enter a usernam
 
 Compatible with Debian and Debian distros.
 
-![Debian](https://user-images.githubusercontent.com/72320038/116701216-a5b11800-a995-11eb-8eaf-5934bf08b6b4.png)
+![Debian](https://user-images.githubusercontent.com/72320038/116606048-2a505780-a8fe-11eb-8df2-0f85034b92e0.png)
