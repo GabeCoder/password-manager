@@ -4,11 +4,13 @@ Password Manager for Debian lets you securely access your passwords so you can e
 
 ## Installation
 
-Download the installer here: [Password Manager.tar.gz](https://github.com/GabeCoder/password-manager/files/6406465/Password.Manager.tar.gz)
+Download the installer here: [Password Manager.tar.gz](https://github.com/GabeCoder/password-manager/files/6650092/Password.Manager.tar.gz)
+
+The installer will prompt you to enter a new authentication password. Type a password you can memorize.
 
 ## Usage
 
-To run this app, click Menu > Accessories > Password Manager.
+To run this app, click Menu > Accessories > Password Manager. You'll be prompted to enter your authentication password to access the main menu.
 
 To add passwords, click on "Add Password". You'll be prompted to enter a username for the password and a password for the username. To browse the passwords, click on 'Browse Passwords", and you'll get a pair of options for each password. The passwords are hidden as default to prevent accidental leakage from possible streaming. You can reveal and delete passwords.
 
